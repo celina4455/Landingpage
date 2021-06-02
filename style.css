@@ -1,0 +1,153 @@
+body {
+    background-color: #d6d6d6;
+    margin: 0;
+}
+
+#splashbillede {
+    width: 100vw;
+
+
+}
+
+
+h1 {
+    font-family: 'Bowlby One';
+    color: #6b6b6b;
+    text-align: center;
+    font-size: 53px;
+}
+
+h2 {
+    font-family: 'Bowlby One';
+    color: #6b6b6b;
+    text-align: center;
+    font-size: 39px;
+}
+
+
+p {
+    width: 50vw;
+    text-align: center;
+    margin-left: 25vw;
+    font-family: 'Questrial';
+    color: #6b6b6b;
+    line-height: 1.5em;
+    font-size: 17px;
+}
+
+label {
+    font-family: 'Bowlby One';
+    color: #6b6b6b;
+    text-align: center;
+    font-size: 30px;
+}
+
+#tilmeld {
+    font-family: 'Bowlby One';
+    color: #6b6b6b;
+    text-align: center;
+    font-size: 20px;
+}
+
+input {
+    height: 4vh;
+}
+
+#fejlbesked {
+    color: #ffffff;
+    font-family: 'Bowlby One';
+    text-align: center;
+    font-size: 20px;
+}
+
+#eventformular {
+    width: 50vw;
+    margin: 15vh 25vw 30vh 25vw;
+    height: 20vh;
+    text-align: center;
+}
+
+iframe {
+    margin: 10vh 30vw 0vh 30vw;
+
+}
+
+@media screen and (max-width: 1368px) {
+    #splashbillede {
+        width: 101vw;
+
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    h2 {
+        font-size: 38px;
+    }
+
+    #eventformular {
+        width: 74vw;
+        margin: 13vh 13vw 30vh 13vw;
+        height: 20vh;
+        text-align: center;
+    }
+
+    iframe {
+        margin: 10vh 25vw 0vh 25vw;
+        width: 50vw;
+
+    }
+
+    h1 {
+        font-size: 53px;
+    }
+
+
+}
+
+@media screen and (max-width: 1020px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    #eventformular {
+        width: 74vw;
+        margin: 13vh 13vw 30vh 13vw;
+        height: 20vh;
+        text-align: center;
+    }
+
+    iframe {
+        margin: 10vh 15vw 0vh 15vw;
+        width: 70vw;
+    }
+
+    h1 {
+        font-size: 53px;
+    }
+
+
+}
+
+@media screen and (max-width: 760px) {
+    h2 {
+        font-size: 26px;
+    }
+
+    #eventformular {
+        width: 74vw;
+        margin: 15vh 13vw 30vh 13vw;
+        height: 20vh;
+        text-align: center;
+    }
+
+    iframe {
+        margin: 10vh 15vw 0vh 15vw;
+        width: 70vw;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 33px;
+    }
+
+}
